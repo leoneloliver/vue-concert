@@ -679,5 +679,8 @@ div#footer {
 #footer span{
       color: #e194ff;
 }
+.banner{
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=milligram.css.map */

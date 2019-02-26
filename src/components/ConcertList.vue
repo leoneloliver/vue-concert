@@ -10,7 +10,7 @@
         <div class="column column-50">
              <input v-model="search"
                 type="text"
-                placeholder="Search..">
+                placeholder="Search.." id="search">
         </div>
         <div class="column column-50">
              <div class="button"
