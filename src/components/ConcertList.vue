@@ -1,5 +1,9 @@
 <template lang="html">
+
 <div class="container">
+
+<img class="cms-billboard__image" src="../assets/2019_CA_NBA_Celtics_vs_Raptors_1280x180.jpg" alt="" />
+
     <h3>List of Events!</h3>
     <div class="row">
     
@@ -31,7 +35,6 @@
 
     </div>
    
-    
     
 </div>
 </template>
@@ -98,4 +101,5 @@ export default {
         }
     }
 }
+
 </script>

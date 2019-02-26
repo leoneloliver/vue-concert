@@ -18,9 +18,9 @@
         <br />
         When are you gonna be there?
         <div>
-            <input v-model="start_date" type="date" style="width:40%">
-            at
-            <input v-model="start_time" type="time" style="width:40%">
+            <input v-model="start_date" type="date">
+           
+            <input v-model="start_time" type="time">
         </div>
 
         <base-button content="Submit" @clicked="submit" :enabled="valid"/>
