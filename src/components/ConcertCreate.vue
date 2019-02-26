@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="card">
-        <h4>Inert new event</h4>
+        <h4>Create new event</h4>
         Who's playing?
         <input
             type="text"
