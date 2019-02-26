@@ -484,6 +484,21 @@ input[type='radio'] {
   }
 }
 
+@media (max-width: 639px) {
+  .banner{display: none;}
+  .row .column.column-50 , .row .column.column-60, .row .column.column-40 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .menu {
+      padding-top: 0 !important;
+  }
+  #nav{
+    text-align: center;
+  }
+  h3{padding-top: 28px !important;}
+}
+
 a {
   color: #42b883;
   text-decoration: none;
@@ -653,6 +668,16 @@ img.logo {
 }
 .menu{
       padding-top: 12px;
+}
+div#footer {
+    background: #4f489f;
+    padding: 10px 15px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+#footer span{
+      color: #e194ff;
 }
 
 /*# sourceMappingURL=milligram.css.map */

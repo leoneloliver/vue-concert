@@ -15,6 +15,7 @@
       </div>
       </div>
     <router-view />
+    <div id="footer">Made With <span>❤</span> by Leonel Oliveira</div>
   </div>
 </template>
 <style>
