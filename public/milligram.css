@@ -505,6 +505,9 @@ input[type='radio'] {
     text-align: center;
   }
   h3{padding-top: 28px !important;}
+  .order{
+    width: 100%;
+  }
 }
 @media (max-width: 460px){
   .column-60 .button{

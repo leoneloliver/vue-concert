@@ -14,7 +14,7 @@
                     placeholder="Search.." id="search">
             </div>
             <div class="column column-50">
-                 <div class="button"
+                 <div class="button order"
                     @click="toggleSort()">
                     {{sort_btn_text}} ↓
                 </div>
