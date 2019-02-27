@@ -1,7 +1,7 @@
 <template>
 <div class="spacing">
   <div class="banner-container">
-        <div class="about-title container">About US</div>
+        <div class="about-title container">About Us</div>
   </div>
   <div class="container">
     <h3>{{ msg }}</h3>
@@ -148,5 +148,8 @@ body{
 }
 .spacing{
   padding-bottom: 60px;
+}
+.banner-container{
+  background: #4f489f;
 }
 </style>
