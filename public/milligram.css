@@ -508,6 +508,9 @@ input[type='radio'] {
   .order{
     width: 100%;
   }
+  div#r-box {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 460px){
   .column-60 .button{
