@@ -1,6 +1,10 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+<div class="spacing">
+  <div class="banner-container">
+        <div class="about-title container">About US</div>
+  </div>
+  <div class="container">
+    <h3>{{ msg }}</h3>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -100,6 +104,8 @@
       </li>
     </ul>
   </div>
+  <div class="hidden" id="r-box"></div>
+</div>
 </template>
 
 <script>
@@ -125,6 +131,22 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #da6d56;;
+}
+body{
+  padding-top: 36px !important;
+}
+#nav{
+  margin-top: -113px;
+}
+.about-title{
+  font-size: 2em;
+  color: #fff;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+.spacing{
+  padding-bottom: 60px;
 }
 </style>

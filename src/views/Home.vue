@@ -5,7 +5,7 @@
 <script>
     import ConcertList from '@/components/ConcertList'
     export default {
-        name: 'About',
+        name: 'Home',
         components: {
             ConcertList
         }

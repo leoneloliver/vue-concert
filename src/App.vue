@@ -4,7 +4,8 @@
       <div class="container">
         <div class="row">
           <div>
-            <img alt="Vue logo" src="../src/assets/logo-new.png" class="logo"/>
+            <router-link to="/"><img alt="Vue logo" src="../src/assets/logo-new.png" class="logo"/></router-link>
+            
           </div>
           <div class="menu">
             <router-link to="/">Home</router-link> |
@@ -26,13 +27,13 @@
   color: #2c3e50;
 }
 #nav {
-    padding: 10px 30px 2px;
-    background: #ffffff;
-    position: fixed;
-    width: 100%;
-    z-index: 99999;
-    margin-top: -80px;
-    box-shadow: 1px 2px 3px #ccc;
+  padding: 10px 30px 2px;
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  margin-top: -74px;
+  box-shadow: 1px 2px 3px #ccc;
 }
 #nav a {
   font-weight: bold;

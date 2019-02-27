@@ -1,7 +1,7 @@
 <template lang="html">
     <div class="card">
         {{concert.name}}
-        <div style="font-size:1.25rem">
+        <div class="place">
             {{concert.place.name}} - {{time}}
         </div>
         <BaseButton :content="'See location'" @clicked="openMap"/>

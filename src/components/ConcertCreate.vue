@@ -1,5 +1,5 @@
 <template lang="html">
-    <div class="card">
+    <div class="card" id="r-box">
         <h4>Create new event</h4>
         Who's playing?
         <input

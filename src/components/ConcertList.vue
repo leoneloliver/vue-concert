@@ -1,41 +1,43 @@
 <template lang="html">
-
-<div class="container">
-
-<img class="banner" src="../assets/2019_CA_NBA_Celtics_vs_Raptors_1280x180.jpg" alt="" />
-
-    <h3>List of Events!</h3>
-    <div class="row">
-    
-        <div class="column column-50">
-             <input v-model="search"
-                type="text"
-                placeholder="Search.." id="search">
-        </div>
-        <div class="column column-50">
-             <div class="button"
-                @click="toggleSort()">
-                {{sort_btn_text}} ↓
-            </div>
-        </div>
-    </div>  
-   
-    <div class="row">
-       
-        <div class="column column-60 ">
-            <div v-for="concert in filtered_concerts">
-                <ConcertView
-                    :concert="concert"
-                    :key="concert.id"/>
-            </div>
-        </div>
-         <div class="column column-40">
-            <ConcertCreate :venues="venues"/>
-        </div>
-
+<div>
+    <div class="banner-container">
+         <img class="banner" src="../assets/2019_CA_NBA_Celtics_vs_Raptors_1280x180.jpg" alt="" />
     </div>
-   
-    
+    <div class="container">
+
+        <h3>List of Events!</h3>
+        <div class="row">
+        
+            <div class="column column-50">
+                 <input v-model="search"
+                    type="text"
+                    placeholder="Search.." id="search">
+            </div>
+            <div class="column column-50">
+                 <div class="button"
+                    @click="toggleSort()">
+                    {{sort_btn_text}} ↓
+                </div>
+            </div>
+        </div>  
+       
+        <div class="row">
+           
+            <div class="column column-60 ">
+                <div v-for="concert in filtered_concerts">
+                    <ConcertView
+                        :concert="concert"
+                        :key="concert.id"/>
+                </div>
+            </div>
+             <div class="column column-40">
+                <ConcertCreate :venues="venues"/>
+            </div>
+
+        </div>
+       
+        
+    </div>
 </div>
 </template>
 
