@@ -492,7 +492,8 @@ input[type='radio'] {
 }
 
 @media (max-width: 639px) {
-  .banner, .banner-container{display: none;}
+  .banner, .about-title{display: none;}
+  .banner-container {height: 15px !important;}
   .row .column.column-50 , .row .column.column-60, .row .column.column-40 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -509,7 +510,7 @@ input[type='radio'] {
     width: 100%;
   }
   div#r-box {
-    margin-top: 20px;
+    margin-top: 20px !important;
   }
 }
 @media (max-width: 460px){
